@@ -1,6 +1,6 @@
-# Nombre del Proyecto - Backend
+#Proyecto -  Kuepa Course Backend Chat
 
-Descripción breve del proyecto backend.
+servicio backend con chat en tiempo real para prueba tecnica Kuepa 
 
 ## Instalación
 

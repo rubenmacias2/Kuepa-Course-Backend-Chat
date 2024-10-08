@@ -56,7 +56,6 @@ DBUSER='uxkkmgmy7siqfknp'
 DBPASSWORD='SFQJowqFS8qbmOlLuu0g'
 DBPORT=3306
 PORT=8081
-REACT_APP_API_URL=http://localhost:8081
 ```
 
 Estas variables se utilizan para conectar tu aplicación a la base de datos y para establecer el puerto en el que se ejecutará el servidor. La base de datos está alojada en un servicio gratuito llamado Clever Cloud, al que se accede con las credenciales especificadas en el archivo `.env`.

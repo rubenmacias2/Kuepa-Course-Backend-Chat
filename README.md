@@ -92,6 +92,78 @@ CREATE TABLE MENSAJE (
 );
 ```
 
+Endpoints
+User API
+
+    Login User
+        URL: http://localhost:8081/login/
+        Método: POST
+        Datos:
+
+        json
+        Mostrar siempre los detalles
+
+    {
+
+      "nombreUsuario": "username",
+
+      "contrasena": "password"
+
+    }
+
+Register User
+
+    URL: http://localhost:8081/registroUsuario/
+    Método: POST
+    Datos:
+
+    json
+    Mostrar siempre los detalles
+
+        {
+
+          // Datos del usuario
+
+        }
+
+    Get User Info
+        URL: http://localhost:8081/findUser?nombreUsuario={username}
+        Método: GET
+
+Chat API
+
+    Show Messages
+        URL: http://localhost:8081/getMessages/
+        Método: GET
+
+Socket.IO Events
+
+    Event: mensajeEnviado
+        Descripción: Evento para enviar un mensaje.
+        Datos:
+
+        json
+        Mostrar siempre los detalles
+
+        {
+
+          // Datos del mensaje
+
+        }
+
+    Event: nuevoMensaje
+        Descripción: Evento emitido cuando se recibe un nuevo mensaje.
+
+Contribuciones
+
+Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
+
+    Haz un fork del repositorio.
+    Crea una nueva rama (git checkout -b feature/nueva-feature).
+    Realiza tus cambios y haz commit (git commit -am 'Agrega nueva feature').
+    Sube tus cambios (git push origin feature/nueva-feature).
+    Abre un Pull Request. """
+
 ## Contribuciones
 
 Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:

@@ -92,7 +92,7 @@ CREATE TABLE MENSAJE (
 );
 ```
 
-Endpoints
+##Endpoints
 User API
 
     Login User
@@ -154,15 +154,7 @@ Socket.IO Events
     Event: nuevoMensaje
         Descripción: Evento emitido cuando se recibe un nuevo mensaje.
 
-Contribuciones
 
-Si deseas contribuir a este proyecto, por favor sigue los siguientes pasos:
-
-    Haz un fork del repositorio.
-    Crea una nueva rama (git checkout -b feature/nueva-feature).
-    Realiza tus cambios y haz commit (git commit -am 'Agrega nueva feature').
-    Sube tus cambios (git push origin feature/nueva-feature).
-    Abre un Pull Request. """
 
 ## Contribuciones
 

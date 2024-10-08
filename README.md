@@ -37,12 +37,12 @@ Para iniciar el servidor, utiliza el siguiente comando:
 npm start
 ```
 
-Luego, abre tu navegador y ve a `http://localhost:8081`.
+Luego, abre tu postman o programasimilar para hacer peticiones al servidor y ve a `http://localhost:8081`.
 
 
 ## Configuración
 
-Asegúrate de que tu aplicación esté configurada para usar el puerto correcto. En este caso, el servidor está configurado para ejecutarse en `http://localhost:8080`.
+Asegúrate de que tu aplicación esté configurada para usar el puerto correcto. En este caso, el servidor está configurado para ejecutarse en `http://localhost:8081`.
 
 
 ### Variables de Entorno

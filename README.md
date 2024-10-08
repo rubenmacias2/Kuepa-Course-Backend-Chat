@@ -37,7 +37,7 @@ Para iniciar el servidor, utiliza el siguiente comando:
 npm start
 ```
 
-Luego, abre tu navegador y ve a `http://localhost:8080`.
+Luego, abre tu navegador y ve a `http://localhost:8081`.
 
 
 ## Configuración

@@ -71,7 +71,7 @@ ALTER TABLE bmgjxray9a9sqlmo6mrs.MENSAJE CONVERT TO CHARACTER SET utf8mb4 COLLAT
 ALTER TABLE bmgjxray9a9sqlmo6mrs.MENSAJE MODIFY contenido VARCHAR(100) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 ```
 
-### Script para Crear Tablas
+## Script para Crear Tablas
 
 ```sql
 USE bmgjxray9a9sqlmo6mrs;
